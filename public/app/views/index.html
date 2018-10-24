@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jagriti Aggarwal</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Pankaj Tanwar">
+    <!-- favicons - Need to change it-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <!-- Javascript -->
+    <script type="text/javascript">
+      $(function () {
+          var typed = new Typed(".type", {
+              // Waits 1000ms after typing "First"
+              strings: ["Hello world !","My name is Jagriti Aggarwal","I am pursuing my B.Tech. in computer science from MNIT Jaipur.","I am more cooler then my name.", "I am a Web Developer in love with NodeJs.", "Eat, Sleep, Code, Repeat."],
+              stringsElement: null,
+              // typing speed
+              typeSpeed: 50,
+              // time before typing starts
+              startDelay: 1200,
+              // backspacing speed
+              backSpeed: 40,
+              // time before backspacing
+              backDelay: 900,
+              // loop
+              loop: true,
+              // false = infinite
+              loopCount: 10,
+              // show cursor
+              showCursor: false,
+              // character for cursor
+              cursorChar: "|",
+              // attribute to type (null == text)
+              attr: null,
+              // either html or text
+              contentType: 'html',
+          });
+
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <ul>
+          <li><a href="/assets/pdf/jagriti-resume.pdf">Resume</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li id="apps"></li> <!-- Apps -->
+          <li id="notifications"></li> <!-- Notifications -->
+          <li id="user-menu"><div id="user-initial">J</div></li>   <!-- User dropdown menu -->
+        </ul>
+      </div>
+      <div id="content">
+        <center>
+          <div id="logo" style="background-image: url('assets/images/logo.png');">
+            <span id="country">India</span>
+          </div>
+        </center>
+
+        <form id="search-form">
+          <center>
+            <input class="box type" type="text" name="search" id="search-box">
+            <div id="button-container">
+              <input type="submit" value="Profile Search">
+              <input type="submit" value="I'm Feeling Lucky">
+            </div>
+          </center>
+        </form>
+      </div>
+      <div id="footer">
+        <div id="footer-left">
+          <ul>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </div>
+        <div id="footer-right">
+          <ul>
+            <li><a href="/skills">Skills</a></li>
+            <li><a href="/experience">Experience</a></li>
+            <li><a href="/contact">Hire Jagriti Aggarwal</a></li>
+            <li><a href="https://www.facebook.com/pankajtanwar.bannaji" target="_blank">Designed By - Pankaj Tanwar</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
